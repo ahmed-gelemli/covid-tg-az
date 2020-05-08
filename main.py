@@ -27,13 +27,13 @@ while True:
                 break
 
         # Validating Data
-        #if new_cases and new_death != 0:
+        if new_cases and new_death != 0:
         # Formatting Data
-        print('-------------------------------------------')
-        print('Azərbaycan Üçün COVİD-19 Statistikası')
-        print(form_date(new_date))
-        print('Ümumi yoluxanların sayı: ' + str(total_confirmed))
-        print('Yeni yoluxanların sayı: +' + str(new_cases))
-        print('Ümumi ölənlərin sayı: ' + str(total_death))
-        print('Yeni ölənlərin sayı: +' + str(new_death))
+            print('-------------------------------------------')
+            print('Azərbaycan Üçün COVİD-19 Statistikası')
+            print(form_date(new_date))
+            print('Ümumi yoluxanların sayı: ' + str(total_confirmed))
+            print('Yeni yoluxanların sayı: +' + str(new_cases))
+            print('Ümumi ölənlərin sayı: ' + str(total_death))
+            print('Yeni ölənlərin sayı: +' + str(new_death))
         old_date = new_date
